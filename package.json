@@ -8,13 +8,13 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "ttag": "^1.7.22"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "extract": "for PO in src/*.po; do yarn run ttag update --extract-location=never --sortByMsgid $PO src; done"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +30,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-app-rewired": "^2.1.6",
+    "ttag-cli": "^1.8.6"
   }
 }
