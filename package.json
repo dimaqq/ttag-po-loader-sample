@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "react-app-rewired": "^2.1.6",
-    "ttag-cli": "^1.8.6"
+    "ttag-cli": "^1.8.6",
+    "ttag-po-loader": "file:../misc/ttag-po-loader/"
   }
 }
