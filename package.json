@@ -6,8 +6,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
-    "ttag": "^1.7.22",
-    "ttag-po-loader": "^0.0.2"
+    "ttag": "^1.7.22"
   },
   "scripts": {
     "start": "react-app-rewired start",
@@ -31,6 +30,7 @@
   },
   "devDependencies": {
     "react-app-rewired": "^2.1.6",
-    "ttag-cli": "^1.8.6"
+    "ttag-cli": "^1.8.6",
+    "ttag-po-loader": "^0.0.2"
   }
 }
