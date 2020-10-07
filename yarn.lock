@@ -11250,7 +11250,7 @@ tsutils@^3.17.1:
   dependencies:
     tslib "^1.8.1"
 
-ttag-cli@^1.8.6:
+ttag-cli@^1, ttag-cli@^1.8.6:
   version "1.8.6"
   resolved "https://registry.yarnpkg.com/ttag-cli/-/ttag-cli-1.8.6.tgz#1a2b6b1186486434570a57aefb97b0704251854c"
   integrity sha512-i3cm1EwbCHW0/Zsb2sqURANAQoFCMe46olgBl1U4IhtsN5tOlhhp/txfnyyTJ+i/cGMYjm8We5SO6c1Lq3Xl8w==
@@ -11293,8 +11293,10 @@ ttag-cli@^1.8.6:
     walk "2.3.9"
     yargs "^15.4.1"
 
-"ttag-po-loader@file:../misc/ttag-po-loader/":
+"ttag-po-loader@file:../misc/ttag-po-loader":
   version "1.0.0"
+  dependencies:
+    ttag-cli "^1"
 
 ttag@^1.7.22:
   version "1.7.22"
