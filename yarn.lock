@@ -11293,8 +11293,10 @@ ttag-cli@^1, ttag-cli@^1.8.6:
     walk "2.3.9"
     yargs "^15.4.1"
 
-"ttag-po-loader@file:../misc/ttag-po-loader":
-  version "1.0.0"
+ttag-po-loader@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/ttag-po-loader/-/ttag-po-loader-0.0.1.tgz#92cd1366e564e97cdb7af3bf5f590a0b6e1b58bc"
+  integrity sha512-gudajDw7PPd1D/gJtFf7oMolkopHyS/XzNHLtqgu2XibjlYHvi7bx3j7KVkIpQ27IgoFdn2FkaNXHHXTrJT21w==
   dependencies:
     ttag-cli "^1"
 
